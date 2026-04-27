@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Which Spider-Man Are You?</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="app">
+    <section id="intro-screen" class="screen active">
+      <div class="card">
+        <p class="label">ENGL1167 Creative Final Project</p>
+        <h1>Which Spider-Man Are You?</h1>
+        <p>
+          This project explores how Spider-Man changes across film adaptations. Instead of treating Spider-Man as one fixed character, the quiz compares three live-action versions and asks which interpretation your answers align with most.
+        </p>
+        <p>
+          This quiz is not meant to find the “true” Spider-Man, but to show how different adaptations emphasize different traits. Each answer adds points toward one version based on tone, characterization, and narrative focus.
+        </p>
+        <button id="start-button" class="button primary" type="button">Start Quiz</button>
+      </div>
+    </section>
+
+    <section id="quiz-screen" class="screen">
+      <div class="card">
+        <p id="progress" class="label">Question 1 of 10</p>
+        <h2 id="question">Loading question...</h2>
+        <div id="answers" class="answers"></div>
+      </div>
+    </section>
+
+    <section id="results-screen" class="screen">
+      <div class="card results-card">
+        <p class="label">Your Result</p>
+        <h2 id="result-name"></h2>
+        <h4 id="result-subtitle"></h4>
+        <div id="result-tag"></div>
+        <img id="result-img" class="result-image" alt="">
+        <p id="result-description"></p>
+        <p id="result-scores" class="scores"></p>
+        <div class="about-project">
+          <h3>About This Project</h3>
+          <p>
+            This quiz is not meant to discover a single “true” Spider-Man. Instead, it highlights how each film version emphasizes different traits, tones, and values while still drawing from the same larger character tradition. Raimi’s Spider-Man tends to foreground duty and sacrifice, Webb’s version stresses emotion and identity, and the MCU version emphasizes humor, mentorship, and growth. Those differences do not come from the source material alone, but from adaptation, collaboration, and interpretation across directors, actors, studios, and franchise expectations. In that sense, the scoring system models a broader academic idea about authorship: character identity is shaped through repeated reinterpretation rather than fixed originality. The result you receive is therefore less a final truth than a way of visualizing how creative choices influence the meaning of a familiar cultural figure.
+          </p>
+        </div>
+        <div class="actions">
+          <button id="home-button" class="button primary" type="button">Back to Home</button>
+          <button id="retake-button" class="button" type="button">Retake Quiz</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
