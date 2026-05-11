@@ -12,11 +12,14 @@
       <div class="card">
         <p class="label">ENGL1167 Creative Final Project</p>
         <h1>Which Spider-Man Are You?</h1>
-        <p>
-          This project explores how Spider-Man changes across film adaptations. Instead of treating Spider-Man as one fixed character, the quiz compares three live-action versions and asks which interpretation your answers align with most.
+        <p class="lead">
+          This project treats Spider-Man not as one fixed character, but as a figure shaped by adaptation, citation, and collaboration. By turning the differences between three live-action film portrayals into a quiz, the website shows how each version emphasizes different traits, tones, and narrative priorities.
         </p>
         <p>
-          This quiz is not meant to find the “true” Spider-Man, but to show how different adaptations emphasize different traits. Each answer adds points toward one version based on tone, characterization, and narrative focus.
+          The quiz format turns interpretation into an interactive classification system. Each choice translates an idea about tone, relationships, heroism, mentorship, or identity into points for one version of Spider-Man.
+        </p>
+        <p>
+          This project focuses only on the three major live-action Spider-Man film portrayals in order to keep the scope narrow and compare three adaptations working within a similar cinematic format.
         </p>
         <button id="start-button" class="button primary" type="button">Start Quiz</button>
       </div>
@@ -24,7 +27,7 @@
 
     <section id="quiz-screen" class="screen">
       <div class="card">
-        <p id="progress" class="label">Question 1 of 10</p>
+        <p id="progress" class="label">Question 1 of 15</p>
         <h2 id="question">Loading question...</h2>
         <div id="answers" class="answers"></div>
       </div>
@@ -33,16 +36,17 @@
     <section id="results-screen" class="screen">
       <div class="card results-card">
         <p class="label">Your Result</p>
+        <div id="result-tag" class="tag"></div>
         <h2 id="result-name"></h2>
         <h4 id="result-subtitle"></h4>
-        <div id="result-tag"></div>
         <img id="result-img" class="result-image" alt="">
         <p id="result-description"></p>
         <p id="result-scores" class="scores"></p>
-        <div class="about-project">
-          <h3>About This Project</h3>
+
+        <div class="project-explanation">
+          <h3>Project Explanation</h3>
           <p>
-            This quiz is not meant to discover a single “true” Spider-Man. Instead, it highlights how each film version emphasizes different traits, tones, and values while still drawing from the same larger character tradition. Raimi’s Spider-Man tends to foreground duty and sacrifice, Webb’s version stresses emotion and identity, and the MCU version emphasizes humor, mentorship, and growth. Those differences do not come from the source material alone, but from adaptation, collaboration, and interpretation across directors, actors, studios, and franchise expectations. The scoring system models a broader academic idea about authorship: character identity is shaped through repeated reinterpretation rather than fixed originality. The result you receive is a way of visualizing how creative choices influence the meaning of a cultural figure.
+            The quiz format turns interpretation into interaction. Rather than arguing for one definitive Spider-Man, the project asks users to move through a set of choices that reflect different authorial priorities. The questions are based on recurring differences across the three live-action portrayals: moral responsibility in the Raimi films, emotional identity in the Webb films, and mentorship/collaboration in the MCU films. The project focuses on live-action Spider-Man rather than animated Spider-Verse adaptations so the comparison stays within a shared cinematic format. Each answer connects to tone, characterization, relationships, or narrative priorities, and the final result shows which pattern of emphasis appears most often.
           </p>
         </div>
         <div class="actions">
